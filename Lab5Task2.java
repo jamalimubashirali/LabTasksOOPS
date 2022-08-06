@@ -17,10 +17,10 @@ class Employee{
     }
 
     public void getEmployeeData(){
-        System.out.println("Id :"+employeeid);
-        System.out.println("Name :"+employeeName);
-        System.out.println("Designation :"+employeeDesignation);
-        System.out.println("Salary :"+employeeSalary);
+        System.out.println("Id :"+this.employeeid);
+        System.out.println("Name :"+this.employeeName);
+        System.out.println("Designation :"+this.employeeDesignation);
+        System.out.println("Salary :"+this.employeeSalary);
     }
 }
 
@@ -34,7 +34,7 @@ public class Lab5Task2 {
         e2.setEmployeeData("Fahad Ali","Web Devloper",6779,5600000);
         e2.getEmployeeData();
         Employee e3= new Employee();
-        e3.setEmployeeData("Muhammmad Ahsan","Security Engineer",4589,10000000);
+        e3.setEmployeeData("Muhammmad Ahsan","Security Engineer",4589,8600000);
         e3.getEmployeeData();
 
     }
