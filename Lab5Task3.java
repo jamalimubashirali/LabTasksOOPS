@@ -17,7 +17,7 @@ class Student{
         System.out.println("Depatment :"+this.studentDegree);
         System.out.println("RollNO:"+this.studentRollNo);
         System.out.println("Year :"+this.studentyear);
-        System.out.println("SEmester"+this.studentsemester);
+        System.out.println("Semester"+this.studentsemester);
     }
 
     Student(String a,String b,String c,int d,int f){
