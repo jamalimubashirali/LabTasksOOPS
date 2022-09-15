@@ -8,6 +8,7 @@ class NegativeNumberException extends Exception{
 public class Lab7Task1 {
   public static void main(String[] args){
   Scanner sc= new Scanner(System.in);
+  System.out.println("Enter any Positive number :");
   int a= sc.nextInt();
     try{
         if(a<0){
