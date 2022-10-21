@@ -1,11 +1,13 @@
-import java.util.*;
+package Lab_7;
+
+import java.util.Scanner;
 class InvalidPasswordException extends Exception{
     public void Ex(){
     System.out.println("Password is univlaid. Exceptin Occured");
     }
 } 
 
-public class Lab7Task3 {
+public class Lab7_Task_3 {
   public static void main(String[] args){
   Scanner sc= new Scanner(System.in);
   System.out.println("Enter the password :");
