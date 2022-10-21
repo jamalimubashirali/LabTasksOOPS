@@ -4,11 +4,9 @@
 
  */
 //import org.json.JSONObject;
-package Lab11_12;
+package Lab_11_12;
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.io.FileWriter;
 
 
 /**
