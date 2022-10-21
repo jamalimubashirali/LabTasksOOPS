@@ -1,4 +1,6 @@
-public class Lab7Task4{
+package Lab_7;
+
+public class Lab7_Task_4{
     public static void main(String[] args){
         int a=6;
         try{

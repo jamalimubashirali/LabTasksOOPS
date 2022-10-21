@@ -1,3 +1,5 @@
+package Lab_7;
+
 import java.util.Scanner;
 
 class InvalidAgeExcption extends Exception{
@@ -9,7 +11,7 @@ class InvalidAgeExcption extends Exception{
     }
 }
 
-public class Lab7Task6{
+public class Lab7_Task_6{
     public static void main(String[] args){
     Scanner sc =new Scanner(System.in);
     int a =sc.nextInt();

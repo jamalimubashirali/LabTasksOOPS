@@ -1,4 +1,6 @@
-public class Lab7Task5{
+package Lab_7;
+
+public class Lab7_Task_5{
     public static void main(String[] args){
         int[] a= new int[4];
         a[0]=1;
