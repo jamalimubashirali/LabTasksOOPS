@@ -1,3 +1,5 @@
+package Lab_5;
+
 class Employee{
     static String companyName;
     private String employeeName;
@@ -24,7 +26,7 @@ class Employee{
     }
 }
 
-public class Lab5Task2 {
+public class Lab5_Task_2 {
     public static void main(String[] args) {
         Employee.companyName="Google";
         Employee e1= new Employee();
