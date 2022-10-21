@@ -1,5 +1,7 @@
+package Lab_6;
+
 import java.util.*;
-public class Lab6Task1 {
+public class Lab6_Task_1 {
     public static void main(String[] args) {
         int[] array={1,2,3,4,5};
         Scanner sc=new Scanner(System.in);
