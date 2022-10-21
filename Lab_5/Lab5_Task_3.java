@@ -1,3 +1,5 @@
+package Lab_5;
+
 class Student{
     private String studentName;
     private String studentDegree;
@@ -29,7 +31,7 @@ class Student{
     }
 }
 
-public class Lab5Task3 {
+public class Lab5_Task_3 {
     public static void main(String[] args) {
     Student S1=new Student("Mubashir Ali","Software Engineering","21SW071",1,2);
     S1.initMethod("Mubashir Ali","Software Engineering","21SW071",1,2);
