@@ -13,7 +13,7 @@ import java.awt.*;
  *
  * @author Tarique Hussain
  */
-public class Lab11Task extends javax.swing.JFrame {
+public class Lab11_12_Task extends javax.swing.JFrame {
 
 
 //    public Lab11Task() {
@@ -248,7 +248,7 @@ public class Lab11Task extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton1ActionPerformed
-JOptionPane.showMessageDialog(null,"Code Executed Successfully");
+
     }//GEN-LAST:event_jRadioButton1ActionPerformed
 
     private void jRadioButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton2ActionPerformed
@@ -263,39 +263,13 @@ JOptionPane.showMessageDialog(null,"Code Executed Successfully");
 
     }//GEN-LAST:event_jComboBox2ActionPerformed
 
-//    public void actionPerformed(ActionEvent e){
-//        String Gender = group.getSelection().getActionCommand();
-//        String Qualification =jCheckBox1.isSelected() ? "Matric" : "";
-//        Qualification += c2.isSelected() ? "Intermediate" : "";
-//        Qualification += c3.isSelected() ? "Graduate" : "";
-//        Qualification += c4.isSelected() ? "Post Graduate" : "";
-//        try{
-//            FileWriter fw = new FileWriter("file.json");
-//            JSONObject obj = new JSONObject();
-//
-//            obj.put("name", t1.getText());
-//            obj.put("roll", t2.getText());
-//            obj.put("batch", t3.getText());
-//            obj.put("section", t4.getText());
-//            obj.put("gender", Gender);
-//            obj.put("qualification", Qualification);
-//            obj.put("address", a1.getText());
-//            obj.put("country", cb.getSelectedItem().toString());
-//
-//            fw.write(obj.toString());
-//            fw.close();
-//        }catch(Exception er){System.out.println(er);}
-//    }});
+
 
     /**
      * @param args the command line arguments
      */
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
+       
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
@@ -304,20 +278,20 @@ JOptionPane.showMessageDialog(null,"Code Executed Successfully");
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Lab11Task.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Lab11_12_Task.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Lab11Task.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Lab11_12_Task.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Lab11Task.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Lab11_12_Task.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Lab11Task.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Lab11_12_Task.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-              Lab11Task Task =  new Lab11Task();
+              Lab11_12_Task Task =  new Lab11_12_Task();
               Task.getContentPane().setBackground(Color.pink);
               Task.initComponents();
               Task.setTitle("Form");
